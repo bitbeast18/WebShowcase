@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Karla|Open+Sans:800&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#left, #right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+
+#left {
+    left: 0;
+    background: antiquewhite;
+}
+
+#right {
+    right: 0;
+    background: aquamarine;
+}
+
+#left section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid;
+    height: 500px;
+    width: 600px;
+
+}
+
+#left h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 600%;
+    font-weight: 900;
+    font-family: "Fjalla One";
+    text-align: center;
+}
+
+#left p {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 110%;
+    font-family: Karla;
+    text-align: center;
+}
+
+#left a {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 60px;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 3px;
+    height: 40px;
+    width: 150px;
+    background: none;
+    text-decoration: none;
+    font-family: Karla;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+#form {
+    border-style: solid;
+    border-width: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 600px;
+}
+
+form {
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+
+#table table {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#table td {
+    text-align: center;
+}
+
+#result {
+    display: block;
+    border-style: solid;
+    border-width: 3px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 600px;
+}
+
+#result p{
+    text-align: center;
+}
+
+button {
+    display: block;
+}
+

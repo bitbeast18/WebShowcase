@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Karla|Open+Sans:800&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../img/pic1.jpg');
+    background-size: contain;
+    top: 0;
+}
+
+.base {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    height: 90%;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-95%, -50%);
+    height: 500px;
+    width: 600px;
+    /* border-style: solid; */
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, -50%);
+    /* border-style: solid; */
+}
+
+.btn a {
+    display: block;
+    background : rgba(102,252,241, 1);
+    border-radius: 40px;
+    color: #0B0C10;
+    font-size: 30px;
+    height: 70px;
+    width:400px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.btn a:hover {
+    background: rgba(69,162,158, 1);
+    color: #C6C7C8;
+}
+
+
+.social a{
+    display: block;
+    position: absolute;
+    bottom:60px;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 3px;
+    height: 40px;
+    width: 150px;
+    background: none;
+    font-family: Karla;
+    color: #66FCF1;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.social a:hover {
+    background: rgba(69,162,158, 1);
+    color: #C6C7C8;
+    border-color: rgba(69,162,158, 1);
+}
+#one {
+    left:110px;
+}
+
+#two {
+    right:110px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 600%;
+    font-weight : 900;
+    color: #66FCF1;
+    font-family: "Fjalla One";
+    text-align: center;
+}
+
+p {
+    font-family: Karla;
+    font-size: 110%;
+    color: #C6C7C8;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Open Sans";
+}
